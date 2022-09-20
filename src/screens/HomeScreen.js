@@ -5,8 +5,14 @@ const HomeScreen = () => {
   // model.id = nanoid(); //=> "V1StGXR8_Z5jdHi6B-myT"
 
   return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text>Home Screen</Text>
+    <View
+      style={{
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'black',
+      }}>
+      <Text style={{color: 'white', fontSize: 30}}>Mali sir, Welcome</Text>
     </View>
   );
 };
