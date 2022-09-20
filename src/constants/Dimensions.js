@@ -1,0 +1,137 @@
+import {Dimensions, Platform, StatusBar} from 'react-native';
+
+// common dimens
+export const _DEVICE_WIDTH = Dimensions.get('window').width;
+export const _DEVICE_HEIGHT = Dimensions.get('window').height;
+export const _ACTUAL_DEVICE_HEIGHT = Dimensions.get('screen').height;
+export const _ACTUAL_DEVICE_WIDTH = Dimensions.get('screen').width;
+
+export const _COMMON_DIMENS = {
+  GEN_HORIZ_PADDING: _DEVICE_WIDTH * 0.04,
+  GEN_HORIZ_PADDING_PRECISION: _DEVICE_WIDTH * 0.008,
+};
+
+export const HORIZONTAL_DIMENS = {
+  _273: _DEVICE_WIDTH * 0.728,
+  _255: _DEVICE_WIDTH * 0.68,
+  _248: _DEVICE_WIDTH * 0.661,
+  _220: _DEVICE_WIDTH * 0.586,
+  _212: _DEVICE_WIDTH * 0.565,
+  _170: _DEVICE_WIDTH * 0.453,
+  _150: _DEVICE_WIDTH * 0.4,
+  _80: _DEVICE_WIDTH * 0.213,
+  _67: _DEVICE_WIDTH * 0.178,
+  _55: _DEVICE_WIDTH * 0.146,
+  _50: _DEVICE_WIDTH * 0.133,
+  _40: _DEVICE_WIDTH * 0.106,
+  _30: _DEVICE_WIDTH * 0.08,
+  _25: _DEVICE_WIDTH * 0.066,
+  _22: _DEVICE_WIDTH * 0.058,
+  _20: _DEVICE_WIDTH * 0.053,
+  _18: _DEVICE_WIDTH * 0.048,
+  _15: _DEVICE_WIDTH * 0.04,
+  _10: _DEVICE_WIDTH * 0.026,
+  _6: _DEVICE_WIDTH * 0.016,
+  _4: _DEVICE_WIDTH * 0.01,
+  _2: _DEVICE_WIDTH * 0.005,
+};
+
+export const VERTICAL_DIMENS = {
+  _421: _DEVICE_HEIGHT * 0.516,
+  _410: _DEVICE_HEIGHT * 0.503,
+  _372: _DEVICE_HEIGHT * 0.456,
+  _362: _DEVICE_HEIGHT * 0.444,
+  _335: _DEVICE_HEIGHT * 0.411,
+  _326: _DEVICE_HEIGHT * 0.4,
+  _291: _DEVICE_HEIGHT * 0.357,
+  _255: _DEVICE_HEIGHT * 0.312,
+  _195: _DEVICE_HEIGHT * 0.239,
+  _180: _DEVICE_HEIGHT * 0.22,
+  _170: _DEVICE_HEIGHT * 0.208,
+  _120: _DEVICE_HEIGHT * 0.147,
+  _110: _DEVICE_HEIGHT * 0.134,
+  _107: _DEVICE_HEIGHT * 0.131,
+  _100: _DEVICE_HEIGHT * 0.122,
+  _90: _DEVICE_HEIGHT * 0.11,
+  _85: _DEVICE_HEIGHT * 0.104,
+  _80: _DEVICE_HEIGHT * 0.098,
+  _75: _DEVICE_HEIGHT * 0.092,
+  _70: _DEVICE_HEIGHT * 0.085,
+  _67: _DEVICE_HEIGHT * 0.082,
+  _64: _DEVICE_HEIGHT * 0.078,
+  _60: _DEVICE_HEIGHT * 0.073,
+  _55: _DEVICE_HEIGHT * 0.067,
+  _50: _DEVICE_HEIGHT * 0.061,
+  _45: _DEVICE_HEIGHT * 0.055,
+  _40: _DEVICE_HEIGHT * 0.049,
+  _36: _DEVICE_HEIGHT * 0.041,
+  _35: _DEVICE_HEIGHT * 0.042,
+  _32: _DEVICE_HEIGHT * 0.039,
+  _30: _DEVICE_HEIGHT * 0.036,
+  _28: _DEVICE_HEIGHT * 0.034,
+  _25: _DEVICE_HEIGHT * 0.03,
+  _22: _DEVICE_HEIGHT * 0.026,
+  _20: _DEVICE_HEIGHT * 0.024,
+  _18: _DEVICE_HEIGHT * 0.022,
+  _15: _DEVICE_HEIGHT * 0.018,
+  _12: _DEVICE_HEIGHT * 0.014,
+  _10: _DEVICE_HEIGHT * 0.012,
+  _8: _DEVICE_HEIGHT * 0.009,
+  _5: _DEVICE_HEIGHT * 0.006,
+};
+
+export const FEATURE_CONTAINER_WIDTH =
+  _DEVICE_WIDTH - 2 * _COMMON_DIMENS.GEN_HORIZ_PADDING;
+export const TEMPLATE_2_IMAGE_WIDTH =
+  _DEVICE_WIDTH - 2 * _COMMON_DIMENS.GEN_HORIZ_PADDING - HORIZONTAL_DIMENS._20;
+export const NON_RIBBON_HEADER_LINE =
+  _DEVICE_WIDTH - 22 - (_DEVICE_WIDTH * 65) / 320 + HORIZONTAL_DIMENS._2;
+export const TEMPLATE_6_IMG_HEIGHT =
+  _DEVICE_HEIGHT - VERTICAL_DIMENS._75 - VERTICAL_DIMENS._20;
+export const TEMPLATE_6_IMG_MAX_WIDTH = _DEVICE_WIDTH * 0.704;
+export const COMMON_MODAL_WIDTH = _DEVICE_WIDTH * 0.893;
+export const COMMON_MODAL_READ_MORE_HEIGHT = _DEVICE_HEIGHT * 0.77;
+export const COMMON_MODAL_READ_MORE_IMAGE_BORDER_RADIUS =
+  COMMON_MODAL_WIDTH / 2;
+export const COMMON_MODAL_DID_YOU_KNOW_HEIGHT = _DEVICE_HEIGHT * 0.597;
+
+export const ABSOLUTE_DIMENS = {
+  _170: 170,
+  _120: 120,
+  _110: 110,
+  _105: 105,
+  _95: 95,
+  _90: 90,
+  _80: 80,
+  _76: 76,
+  _70: 70,
+  _65: 65,
+  _60: 60,
+  _55: 55,
+  _50: 50,
+  _45: 45,
+  _40: 40,
+  _38: 38,
+  _35: 35,
+  _34: 34,
+  _26: 26,
+  _24: 24,
+  _22: 22,
+  _20: 20,
+  _18: 18,
+  _16: 16,
+  _15: 15,
+  _10: 10,
+  _5: 5,
+  _0: 0,
+};
+
+export const MENU_ITEM_DIMENS = {};
+
+export const paddingRightLeft = {
+  paddingLeft: 10,
+  paddingRight: 10,
+};
+
+// export const AD_HEIGHT = ABSOLUTE_DIMENS._50
+export const AD_HEIGHT = (_DEVICE_WIDTH * 0) / 320;
