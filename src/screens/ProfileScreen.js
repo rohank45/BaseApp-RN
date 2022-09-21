@@ -1,9 +1,7 @@
 import React from 'react';
 import {Text, View} from 'react-native';
 
-const HomeScreen = () => {
-  // model.id = nanoid(); //=> "V1StGXR8_Z5jdHi6B-myT"
-
+const ProfileScreen = () => {
   return (
     <View
       style={{
@@ -12,9 +10,9 @@ const HomeScreen = () => {
         justifyContent: 'center',
         // backgroundColor: 'black',
       }}>
-      <Text style={{color: 'black', fontSize: 30}}>HomeScreen</Text>
+      <Text style={{color: 'black', fontSize: 30}}>ProfileScreen</Text>
     </View>
   );
 };
 
-export default HomeScreen;
+export default ProfileScreen;
