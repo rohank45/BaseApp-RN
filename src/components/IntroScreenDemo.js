@@ -16,10 +16,7 @@ const IntroOneScreenDemo = ({navigation}) => {
     <View style={mainStyles.container}>
       <View>
         <Text style={mainStyles.h3}>{`Find Home Care Givers`}</Text>
-        <Text style={mainStyles.p}>
-          Find nurses / brothers at the tip of your fingers easily and at your
-          preferred time!
-        </Text>
+        <Text style={mainStyles.p}>HELLO THERE INTRO HERE</Text>
       </View>
       <View>
         <Image
